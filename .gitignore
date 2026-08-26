@@ -1,0 +1,17 @@
+# Secretos y configuración local
+.env
+
+# Estado interno / runtime del bot (datos de cuenta real, no código)
+logs/
+Operaciones_Funded/
+funded_day_state.json
+funded_last_lot.txt
+funded_reference_balance.txt
+funded_risk_day_state.json
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
